@@ -8,3 +8,14 @@
 p {
     color: red;
 }
+
+.navtext {
+    transition: 1s;
+    color: blue;
+    cursor: pointer;
+}
+
+.navtext:hover {
+    transition: 1s;
+    font-size: 20px;
+}
