@@ -67,6 +67,6 @@ function refreshBanner() {
     // Reload banner gif to force load  
     let banner = document.getElementById('banner');
     let src = banner.src;
-    banner.src = '';
+    banner.src = './public/images/mid.gif';
     banner.src = src;
 }
